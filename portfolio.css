@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: #333;
+    color: #ffff;
+    padding: 20px 8%;
+    display: flex;
+    float: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff9800;
+    transform: translateY(-5px);
+}
+
+*/ body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    color: white;
+}
+
+.sidebar {
+    width: 250px;
+    background: #0f172a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    height: 100vh;
+}
+
+.proflie img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.profile h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.social-icon {
+    margin-left: 20px;
+}
+
+.social-icon a {
+    color: white;
+    margin: 0 6px;
+    font-size: 16px;
+    transition: 1s;
+}
+
+.social-icon a:hover {
+    color: #38bdf8;
+}
+
+.nav {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.nav a {
+    display: block;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav a:hover,
+.nav .active {
+    background: #1e293b;
+    border-radius: 3px;
+}
+
+.nav p {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 10px;
+}
+
+.line {
+    font-size: 26px;
+    cursor: pointer;
+    color: white;
+    display: none;
+
+}
+
+.line a {
+    display: block;
+    padding: 200px;
+    color: white;
+    text-decoration: none;
+}
+
+.line:hover {
+    color: red;
+    transition: 1s;
+
+}
+
+.dropdown a:hover {
+    color: skyblue;
+}
+
+.line:hover .dropdown {
+    display: block;
+    z-index: 99;
+}
+
+
+/* hero */
+.hero {
+    margin-left: 250px;
+    height: 100vh;
+    background: url("/image/imgi_28_bus-admin-480x270.png") no-repeat center center/cover;
+    position: relative;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-text {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+.section {
+    margin-left: 250px;
+    padding: 50px 35px;
+    background: white;
+    min-height: 55vh;
+}
+
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+.section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.section ul {
+    list-style: none;
+}
+
+.section ul li {
+    margin-bottom: 8px;
+    margin-left: 1.6;
+}
+
+/* resume */
+.resume-grid {
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.resume-grid h3 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+/* Portfolio */
+.portfolio h2 {}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 80px auto;
+}
+
+.portfolio-grid .card a {
+    color: white;
+    text-decoration: none;
+}
+
+.card {
+    background: #334155;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.3s;
+    color: white;
+}
+
+.card:hover {
+    background: #475569;
+}
+
+/* Services */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.services-grid i {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #38bdf8;
+}
+
+/* Contact */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 12px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #0ea5e9;
+}
+
+.web {
+    margin-left: 1200px;
+    position: relative;
+}
+
+.web a {
+    color: green;
+    margin: 0 6px;
+    font-size: 50px;
+    transition: 1s;
+
+}
+
+.web a:hover {
+    color: #38bdf8;
+}
+
+/* Footer */
+.footer {
+    margin-left: 250px;
+    padding: 20px;
+    background: #0f172a;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media (max-width: 1024px) {
+
+    .resume-grid,
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 15px;
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .line {
+        display: block;
+        color: white;
+        background-color: black;
+        padding-left: 726px;
+    }
+
+    .hero,
+    .section,
+    .footer {
+        margin-left: 0;
+    }
+
+    .resume-grid,
+    .services-grid,
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+    }
+
+    .section {
+        padding: 45px 25px;
+    }
+}
+
+@media (max-width: 734px) {
+    .line {
+        display: block;
+        color: white;
+        background-color: black;
+        background-size: auto;
+        padding-left: 397px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+    }
+}
+
+.sidebar {
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    padding: 35px 20px;
+}
+
+@media (max-width: 320px) {
+    .line {
+        display: block;
+        color: white;
+        background-color: black;
+        padding-left: 290px;
+
+    }
+}
