@@ -263,7 +263,7 @@ nav a:hover {
 }
 
 /* Contact */
-.contact-form {
+/* .contact-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -291,7 +291,7 @@ nav a:hover {
 .contact-form button:hover {
     background: #0ea5e9;
 }
-
+ */
 .web {
     margin-left: 1200px;
     position: relative;
