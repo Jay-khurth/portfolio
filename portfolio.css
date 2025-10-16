@@ -342,6 +342,7 @@ nav a:hover {
 .btn:hover {
     background: #0056b3;
 }
+
 .footer {
     background: #151515;
     color: white;
@@ -371,6 +372,7 @@ nav a:hover {
 .whatsapp-btn:hover {
     background: #1DA851;
 }
+
 .whatsapp-section {
     position: fixed;
     bottom: 20px;
@@ -390,6 +392,15 @@ nav a:hover {
 
 .whatsapp-btn:hover {
     background: #1DA851;
+}
+
+.down {
+    display: block;
+
+}
+
+.down a {
+    color: #151515;
 }
 
 /* Footer styling */
