@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendly Clone: Scheduling Automation Platform</title>
+    <link rel="stylesheet" href="/index2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-controls="mobile-menu" hidden>
+
+    <div class="global-bar">
+        <div class="global-left">
+            <div class="global-dropdown">
+                <span><i class="fas fa-globe"></i> English</span>
+                <i class="fas fa-caret-down global-arrow"></i>
+                <ul class="global-menu">
+                    <li><a href="#">Global ▾</a></li>
+                    <li><a href="#">United States</a></li>
+                    <li><a href="#">United Kingdom</a></li>
+                    <li><a href="#">Canada</a></li>
+                    <li><a href="#">Australia</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="global-right">
+            <a href="#" class="talk-sales">Talk to sales</a>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="header-inner">
+            <a href="#" class="logo">
+                <img src="/image/logo.png.svg" alt="Calendly Logo">
+            </a>
+
+            <nav class="main-nav">
+                <ul class="nav-list">
+
+                    <li class="nav-item dropdown">
+                        <a href="#">Product <i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown-menu product-menu two-col">
+                            <div class="col">
+                                <h4 class="h4-product">Product</h4>
+                                <a href="#">Features</a>
+                                <a href="#">Pricing</a>
+                                <a href="#">Security</a>
+                                <a href="#">Customer Stories</a>
+                            </div>
+                            <div class="col">
+                                <h4 class="h4-platform">Platform</h4>
+                                <a href="#">Integrations</a>
+                                <a href="#">Developers</a>
+                                <a href="#">Mobile Apps</a>
+                            </div>
+                            <div class="shape-blob shape-product-1"></div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#">Solutions <i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown-menu solution-menu three-col">
+                            <div class="col">
+                                <h4 class="h4-size">By Business Size</h4>
+                                <a href="#">Small Business</a>
+                                <a href="#">Mid-Market</a>
+                                <a href="#">Enterprise</a>
+                            </div>
+                            <div class="col">
+                                <h4 class="h4-industry">By Industry</h4>
+                                <a href="#">Technology</a>
+                                <a href="#">Financial Services</a>
+                                <a href="#">Higher Education</a>
+                                <a href="#">Recruiting</a>
+                            </div>
+                            <div class="col">
+                                <h4 class="h4-team">By Team</h4>
+                                <a href="#">Sales</a>
+                                <a href="#">Marketing</a>
+                                <a href="#">Customer Success</a>
+                                <a href="#">Operations</a>
+                            </div>
+                            <div class="shape-blob shape-solution-1"></div>
+                            <div class="shape-blob shape-solution-2"></div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#">Resources <i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown-menu resource-menu two-col">
+                            <div class="col">
+                                <h4 class="h4-explore">Explore</h4>
+                                <a href="#">Blog</a>
+                                <a href="#">Help Center</a>
+                                <a href="#">Tools</a>
+                                <a href="#">API Documentation</a>
+                            </div>
+                            <div class="col">
+                                <h4 class="h4-learn">Learn & Connect</h4>
+                                <a href="#">Video Tutorials</a>
+                                <a href="#">Community</a>
+                                <a href="#">Webinars</a>
+                            </div>
+                            <div class="shape-blob shape-resource-1"></div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item"><a href="#">Pricing</a></li>
+                </ul>
+            </nav>
+
+            <div class="actions">
+                <a href="#" class="login">Log In</a>
+                <a href="#" class="btn-primary">Get started</a>
+
+                <label for="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <ul>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li class="divider"></li>
+            <li><a href="#" class="login">Log In</a></li>
+            <li><a href="#" class="btn-primary">Get started</a></li>
+        </ul>
+    </div>
+    <main class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text-and-buttons">
+                <h1>Easy <br> scheduling <br> ahead</h1>
+                <p>Join 20 million professionals who easily book <br> meetings with the #1 scheduling tool.</p>
+
+                <div class="sign-in-options">
+                    <a href="#" class="btn-social google">
+                        <img src="/image/imgi_3_googleLogo.png" alt="Google">
+                        Sign up with Google
+                    </a>
+                    <a href="#" class="btn-social microsoft">
+                        <img src="/image/imgi_82_default.png" alt="Microsoft">
+                        Sign up with Microsoft
+                    </a>
+                </div>
+
+                <div class="email-signup-block">
+                    <p class="or"><span>OR</span></p>
+                    <a href="#" class="signup-email nowrap-desktop">Sign up free with email. <span class="no-credit">No
+                            credit card required</span></a>
+                </div>
+
+            </div>
+
+            <div class="swiping-widget-wrapper">
+                <div class="widget-carousel-image-container">
+
+                    <div id="image-slider-strip" class="image-slider-strip">
+                        <img class="hero-widget-image" src="/img/download.svg" alt="Scheduling Widget Preview 1">
+                        <img class="hero-widget-image" src="/img/pict.png.png" alt="Scheduling Widget Preview 2">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="hero-bg-shapes">
+            <div class="shape-1"></div>
+            <div class="shape-2"></div>
+        </div>
+
+
+
+        <section class="trusted-by-section">
+            <div class="trusted-by-content">
+                <p class="trusted-by-text">Trusted by more than **100,000** of the world’s leading organizations</p>
+
+                <div class="trusted-by-scroller">
+
+                    <div class="marquee-group">
+                        <img src="/img/imgi_33_hackerone-customer-logo.png" alt="HackerOne Logo">
+                        <img src="/img/imgi_12_indiana-university-customer-logo.png" alt="Indiana University Logo">
+                        <img src="/img/imgi_10_Gong-logo.png" alt="Gong Logo">
+                        <img src="/img/imgi_11_carnival-customer-logo.png" alt="Carnival Logo">
+                        <img src="/img/imgi_34_VonageLogo.png" alt="Vonage Logo">
+                    </div>
+
+                    <div class="marquee-group">
+                        <img src="/img/imgi_33_hackerone-customer-logo.png" alt="HackerOne Logo">
+                        <img src="/img/imgi_12_indiana-university-customer-logo.png" alt="Indiana University Logo">
+                        <img src="/img/imgi_10_Gong-logo.png" alt="Gong Logo">
+                        <img src="/img/imgi_11_carnival-customer-logo.png" alt="Carnival Logo">
+                        <img src="/img/imgi_34_VonageLogo.png" alt="Vonage Logo">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sliderStrip = document.getElementById('image-slider-strip');
+            const images = sliderStrip.querySelectorAll('.hero-widget-image');
+            const widgetWrapper = document.querySelector('.swiping-widget-wrapper');
+            let currentIndex = 0;
+
+            const imageSources = [
+                '/img/download.svg',
+                '/img/pict.png.png'
+            ];
+
+            const colorPalettes = [
+                { c1: 'var(--color-set-blue-purple-1)', c2: 'var(--color-set-blue-purple-2)' },
+                { c1: 'var(--color-set-green-red-1)', c2: 'var(--color-set-green-red-2)' }
+            ];
+
+            const wrapperTranslations = [
+                'translateY(0)',
+                'translateY(-10px)'
+            ];
+
+            function updateSlideAndShapes(index, instantSwap = false) {
+                const numImages = imageSources.length;
+                const targetIndex = index % numImages;
+                const nextIndex = (targetIndex + 1) % numImages;
+
+                sliderStrip.style.transition = instantSwap ? 'none' : 'transform 1s ease-in-out';
+                sliderStrip.style.transform = `translateX(-100%)`;
+
+                const palette = colorPalettes[targetIndex];
+                const mainContainer = document.querySelector('.hero-section');
+
+                if (mainContainer) {
+                    mainContainer.style.setProperty('--color-shape-1', palette.c1);
+                    mainContainer.style.setProperty('--color-shape-2', palette.c2);
+                }
+                widgetWrapper.style.transform = `perspective(1000px) rotateY(-5deg) ${wrapperTranslations[targetIndex]}`;
+
+                setTimeout(() => {
+                    images[0].src = imageSources[nextIndex];
+                    images[1].src = imageSources[targetIndex];
+
+                    sliderStrip.style.transition = 'none';
+                    sliderStrip.style.transform = `translateX(0)`;
+
+                }, instantSwap ? 0 : 1000);
+
+                currentIndex = targetIndex;
+            }
+
+            function autoSwipe() {
+                const nextIndex = (currentIndex + 1);
+                updateSlideAndShapes(nextIndex);
+            }
+
+            setInterval(autoSwipe, 8000);
+
+            images[0].src = imageSources[0];
+            images[1].src = imageSources[1];
+            updateSlideAndShapes(0, true);
+        });
+    </script>
+
+
+
+
+    <!-- MAIN FEATURE SECTION -->
+    <section class="feature-section">
+        <div class="feature-content">
+
+            <!-- Left Text -->
+            <div class="feature-text">
+                <h1>Calendly makes <br> scheduling simple</h1>
+                <p>Calendly’s easy enough for individual users, and powerful enough to meet the needs of <br> enterprise
+                    organizations — including 86% of the Fortune 500 companies.</p>
+                <a href="#" class="btn-primary">Sign up for free</a>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="cal-wrap">
+            <section class="cal-section">
+
+                <!-- LEFT: steps -->
+                <div class="cal-left">
+                    <div class="cal-step">
+                        <div class="cal-icon">📅</div>
+                        <div class="cal-body">
+                            <h3>Connect your calendars</h3>
+                            <p>Calendly connects up to six calendars to automate scheduling with real-time
+                                availability.</p>
+                            <div class="cal-underline"><span class="cal-fill"></span></div>
+                        </div>
+                    </div>
+
+                    <div class="cal-step">
+                        <div class="cal-icon">🕒</div>
+                        <div class="cal-body">
+                            <h3>Add your availability</h3>
+                            <p>Keep invitees informed of your availability with detailed availability settings,
+                                buffers, and rules.</p>
+                            <div class="cal-underline"><span class="cal-fill"></span></div>
+                        </div>
+                    </div>
+
+                    <div class="cal-step">
+                        <div class="cal-icon">🎥</div>
+                        <div class="cal-body">
+                            <h3>Connect conferencing tools</h3>
+                            <p>Sync your video conferencing tools and set preferences for meetings or calls.</p>
+                            <div class="cal-underline"><span class="cal-fill"></span></div>
+                        </div>
+                    </div>
+
+                    <div class="cal-step">
+                        <div class="cal-icon">⚙️</div>
+                        <div class="cal-body">
+                            <h3>Customize your event types</h3>
+                            <p>Choose templates or create custom event types for any meeting you need to schedule.
+                            </p>
+                            <div class="cal-underline"><span class="cal-fill"></span></div>
+                        </div>
+                    </div>
+
+                    <div class="cal-step">
+                        <div class="cal-icon">🔗</div>
+                        <div class="cal-body">
+                            <h3>Share your scheduling link</h3>
+                            <p>Easily book meetings by embedding scheduling links on your website or in emails.</p>
+                            <div class="cal-underline"><span class="cal-fill"></span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cal-right">
+                    <div class="cal-image-border">
+                        <div class="cal-image-shape"></div>
+                        <div class="cal-image-slider">
+                            <img src="/img/imgi_100_default.png" alt="slide1">
+                            <img src="/img/imgi_99_default.png" alt="slide2">
+                            <img src="/img/imgi_95_default.png" alt="slide3">
+                            <img src="/img/imgi_98_default.png" alt="slide4">
+                            <!-- duplicate last image so step 4 & 5 both show same final image -->
+                            <img src="/img/imgi_98_default.png" alt="slide4-dup">
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+
+
+        <div class="integrations-section">
+            <section class="integrations-header">
+                <h1 class="header-title">Connect Calendly to the tools you already use</h1>
+                <div class="header-info">
+                    <p class="header-text">Boost productivity with 100+ integrations</p>
+                    <a href="#" class="view-integrations">View all integrations &rarr;</a>
+                </div>
+            </section>
+
+            <div class="integrations-layout">
+                <div class="integration-card">
+                    <img src="/img/imgi_13_Zoom.png" alt="Zoom Logo">
+                </div>
+                <div class="integration-card">
+                    <img src="/img/imgi_14_saleforce.png" alt="Salesforce Logo">
+                </div>
+                <div class="integration-card">
+                    <img src="/img/imgi_15_google-calendar.png" alt="Google Calendar Logo">
+                </div>
+                <div class="integration-card">
+                    <img src="/img/imgi_16_slack-logo-icon.png" alt="Slack Logo">
+                </div>
+                <div class="integration-card">
+                    <img src="/img/imgi_77_Microsoft-Teams-Logo.png" alt="Microsoft Teams Logo">
+                </div>
+                <div class="integration-card">
+                    <img src="/img/imgi_18_gmail-icon.png" alt="Gmail Logo">
+                </div>
+                <div class="integration-card">
+                    <img src="/img/imgi_22_hubspot.png" alt="HubSpot Logo">
+                </div>
+                <div class="integration-card">
+                    <img src="/img/imgi_26_stripe-logo.png" alt="Chrome Logo">
+                </div>
+                <div class="integration-card">
+                    <img src="/img/imgi_19_outlook.png" alt="WordPress Logo">
+                </div>
+                <div class="integration-card">
+                    <img src="/img/imgi_25_linkedin.png" alt="Webhook Logo">
+                </div>
+                <div class="integration-card">
+                    <img src="/img/imgi_29_activecampaign-logo-icon.png" alt="ActiveCampaign Logo">
+                </div>
+                <div class="integration-card">
+                    <img src="img/imgi_23_zapier-icon.png" alt="Zapier Logo">
+                </div>
+                <div class="integration-card">
+                    <img src="/img/imgi_21_webex-logomark-01.png" alt="LinkedIn Logo">
+                </div>
+                <div class="integration-card">
+                    <img src="/img/imgi_20_Chrome.png" alt="Slack Logo S">
+                </div>
+                <div class="integration-card">
+                    <img src="/img/imgi_24_Logomark.png" alt="API Logo">
+                </div>
+                <div class="integration-card">
+                    <img src="/img/imgi_28_intercom.png" alt="Bar Code Logo">
+                </div>
+                <div class="integration-card">
+                    <img src="/img/imgi_5_lyft-customer-logo.png" alt="Arrow Right Logo">
+                </div>
+                <div class="integration-card">
+                    <img src="/img/imgi_30_paypal-icon.png" alt="PayPal Logo">
+                </div>
+                <!-- Add more cards as needed -->
+            </div>
+
+
+
+        </div>
+        <div class="container-grid">
+            <div class="app-box">
+                <img src="/img/imgi_3_googleLogo.png" alt="Google Suite Icon">
+                <div>
+                    <p>Google suite</p><br>
+                    <span>Get your job done faster by connecting Calendly to Google <br> Calendar, Meet, Analytics,
+                        and
+                        more.</span>
+                </div>
+            </div>
+            <div class="app-box">
+                <img src="/img/imgi_82_default.png" alt="Microsoft Suite Icon">
+                <div>
+                    <p>Microsoft suite</p><br>
+                    <span>Make your day easier with Calendly integrations for Microsoft <br> Teams, Outlook, Azure
+                        SSO,
+                        and more.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="kiker">
+            <h1>More than a <br> scheduling link</h1>
+            <p class="">Calendly’s functionality goes way beyond just a scheduling link, with customizable,<br>
+                automated features to help you and your team achieve goals faster.</p>
+
+
+
+            <button class="btn"><a href="">Sign up for free</a></button>
+        </div>
+
+        <section class="features-left">
+
+            <!-- TEXT SIDE -->
+            <div class="text-side">
+                <div class="feature">
+                    <h3><i class="fa fa-chrome"></i> Browser extensions</h3>
+                    <p>Quickly find and share scheduling links from your inbox, LinkedIn, CRM, and more.
+                    </p>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="feature">
+                    <h3><i class="fa fa-cogs"></i>Automated workflows</h3>
+                    <p>Boost attendance and save time by automating reminders and follow-ups.
+
+                    </p>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="feature">
+                    <h3><i class="fa fa-route"></i>Routing forms</h3>
+                    <p>Pool your team’s schedule together to offer more booking options to customers, or
+                        automatically combine availability to quickly schedule co-hosted calls.
+                    </p>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="feature">
+                    <h3><i class="fa fa-users-cog"></i> Admin management</h3>
+                    <p>Team admins enjoy tools to streamline onboarding, ensure consistency, track scheduling
+                        trends, maintain security standards, and more.
+
+                    </p>
+                    <div class="underline"></div>
+                </div>
+            </div>
+
+            <!-- IMAGE SIDE -->
+            <div class="image-side">
+                <div class="image-border">
+                    <div class="shape shape1"></div>
+                    <div class="shape shape2"></div>
+                    <img src="/imgi_117_default.png" alt="Feature 1" class="slide">
+                    <img src="/imgi_113_default.png" alt="Feature 2" class="slide">
+                    <img src="/imgi_110_default.png" alt="Feature 3" class="slide">
+                    <img src="/imgi_116_default.png" alt="Feature 4" class="slide">
+                </div>
+            </div>
+        </section>
+        <section class="cal-pricing-right">
+
+            <div class="cal-header-left">
+                <h1 class="cal-title-left">Pick the perfect plan<br>for your team</h1>
+
+                <div class="cal-billing-toggle-left">
+                    <input type="radio" id="cal-yearly-left" name="billing-left" class="cal-radio-left" checked>
+                    <input type="radio" id="cal-monthly-left" name="billing-left" class="cal-radio-left">
+
+                    <label for="cal-yearly-left" class="cal-toggle-label-left">Billed yearly</label>
+                    <label for="cal-monthly-left" class="cal-toggle-label-left">Billed monthly</label>
+
+                </div>
+            </div>
+
+            <div class="cal-carousel-wrapper">
+                <button class="cal-nav-arrow cal-nav-left" aria-label="Previous Plan">←</button>
+                <button class="cal-nav-arrow cal-nav-right" aria-label="Next Plan">→</button>
+
+                <div class="cal-plans-left">
+
+                    <div class="cal-plan-left">
+                        <h2 class="cal-plan-title-left">Free</h2>
+                        <p class="cal-plan-desc-left">For personal use</p>
+                        <div class="cal-price-left">
+                            <span class="cal-price-monthly-left">Always free</span>
+                            <span class="cal-price-yearly-left">Always free</span>
+                        </div>
+                        <ul class="cal-feature-list-left"></ul>
+                        <button class="cal-cta-left primary dark">Get started</button>
+                    </div>
+
+                    <div class="cal-plan-left">
+                        <h2 class="cal-plan-title-left">Standard</h2>
+                        <p class="cal-plan-desc-left">For professionals and small teams</p>
+                        <div class="cal-price-left">
+                            <span class="cal-price-monthly-left">$12</span>
+                            <span class="cal-price-yearly-left">$10</span>
+                            <span class="seat-label">/seat/mo</span>
+                            <span class="discount-label">Save 16%</span>
+                        </div>
+                        <ul class="cal-feature-list-left"></ul>
+                        <button class="cal-cta-left primary blue">Get started</button>
+                    </div>
+
+                    <div class="cal-plan-left popular">
+                        <span class="recommended-badge">Recommended plan</span>
+                        <h2 class="cal-plan-title-left">Teams</h2>
+                        <p class="cal-plan-desc-left">For growing businesses</p>
+                        <div class="cal-price-left">
+                            <span class="cal-price-monthly-left">$20</span>
+                            <span class="cal-price-yearly-left">$16</span>
+                            <span class="seat-label">/seat/mo</span>
+                            <span class="discount-label">Save 20%</span>
+                        </div>
+                        <ul class="cal-feature-list-left"></ul>
+                        <button class="cal-cta-left primary blue">Try for Free</button>
+                    </div>
+
+                    <div class="cal-plan-left">
+                        <h2 class="cal-plan-title-left">Enterprise</h2>
+                        <p class="cal-plan-desc-left">For large companies</p>
+                        <div class="cal-price-left large-price">
+                            <span class="starts-label">Starts at</span>
+                            <span class="cal-price-monthly-left">$15k</span>
+                            <span class="cal-price-yearly-left">$15k</span>
+                            <span class="per-year-label">/yr</span>
+                        </div>
+                        <ul class="cal-feature-list-left"></ul>
+                        <button class="cal-cta-left primary blue">Talk to sales</button>
+                    </div>
+
+                </div>
+            </div>
+            <p class="learn-more">
+                Learn more on our pricing page →
+            </p>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const carousel = document.querySelector('.cal-plans-left');
+                    const leftArrow = document.querySelector('.cal-nav-left');
+                    const rightArrow = document.querySelector('.cal-nav-right');
+
+                    if (leftArrow && rightArrow && carousel) {
+
+                        // Function to calculate the width of one card plus its spacing
+                        const getScrollDistance = () => {
+                            const firstCard = carousel.querySelector('.cal-plan-left');
+                            if (!firstCard) return 300;
+
+                            const cardWidth = firstCard.offsetWidth;
+                            const computedStyle = window.getComputedStyle(firstCard);
+                            const margin = parseFloat(computedStyle.marginLeft) + parseFloat(computedStyle.marginRight);
+
+                            // Returns the exact distance needed to snap to the next card
+                            return cardWidth + margin;
+                        };
+
+                        rightArrow.addEventListener('click', () => {
+                            carousel.scrollBy({
+                                left: getScrollDistance(),
+                                behavior: 'smooth'
+                            });
+                        });
+
+                        leftArrow.addEventListener('click', () => {
+                            carousel.scrollBy({
+                                left: -getScrollDistance(),
+                                behavior: 'smooth'
+                            });
+                        });
+
+                        // Logic to hide/show arrows (more robust version)
+                        const checkScroll = () => {
+                            const maxScroll = carousel.scrollWidth - carousel.clientWidth;
+                            const tolerance = 5;
+
+                            // Left Arrow (Start)
+                            const isAtStart = carousel.scrollLeft <= tolerance;
+                            leftArrow.style.display = isAtStart ? 'none' : 'block';
+
+                            // Right Arrow (End)
+                            const isAtEnd = carousel.scrollLeft >= maxScroll - tolerance;
+                            rightArrow.style.display = isAtEnd ? 'none' : 'block';
+                        };
+
+                        checkScroll();
+                        carousel.addEventListener('scroll', checkScroll);
+                        window.addEventListener('resize', checkScroll);
+                    }
+                });
+            </script>
+        </section>
+    </section>
+
+    <div class="carousel-container">
+        <div class="nav-arrow left-arrow">◀</div>
+        <div class="nav-arrow right-arrow">▶</div>
+
+        <div class="title-section">
+            <h2 class="main-title">Discover how business grow <br> with calendly</h2>
+            <a href="#" class="view-stories-link">View all stories →</a>
+        </div>
+
+        <div class="carousel-wrapper">
+            <div class="carousel-track">
+                <div class="carousel-card hackerone">
+                    <div class="blob"></div>
+                    <div class="company-logo">HackerOne Logo</div>
+                    <div class="metric-section">
+                        <div class="metric">200%</div>
+                        <div class="metric-label">increase in user adoption</div>
+                    </div>
+                    <a href="#" class="read-now-btn">Read Now</a>
+                </div>
+                <div class="carousel-card vonage">
+                    <div class="blob"></div>
+                    <div class="company-logo">Vonage Logo</div>
+                    <div class="metric-section">
+                        <div class="metric">75%</div>
+                        <div class="metric-label">shorter time to market</div>
+                    </div>
+                    <a href="#" class="read-now-btn">Read Now</a>
+                </div>
+                <div class="carousel-card utexas">
+                    <div class="blob"></div>
+                    <div class="company-logo">UTEXAS Logo</div>
+                    <div class="metric-section">
+                        <div class="metric">99%</div>
+                        <div class="metric-label">reduction in meeting conflicts</div>
+                    </div>
+                    <a href="#" class="read-now-btn">Read Now</a>
+                </div>
+                <div class="carousel-card muckrack">
+                    <div class="blob"></div>
+                    <div class="company-logo">Muck Rack Logo</div>
+                    <div class="metric-section">
+                        <div class="metric">150K</div>
+                        <div class="metric-label">meetings booked annually</div>
+                    </div>
+                    <a href="#" class="read-now-btn">Read Now</a>
+                </div>
+                <div class="carousel-card lyft">
+                    <div class="blob"></div>
+                    <div class="company-logo">Lyft Logo</div>
+                    <div class="metric-section">
+                        <div class="metric">30%</div>
+                        <div class="metric-label">more client discovery calls</div>
+                    </div>
+                    <a href="#" class="read-now-btn">Read Now</a>
+                </div>
+                <div class="carousel-card dropbox">
+                    <div class="blob"></div>
+                    <div class="company-logo">Dropbox Logo</div>
+                    <div class="metric-section">
+                        <div class="metric">2X</div>
+                        <div class="metric-label">faster team onboarding</div>
+                    </div>
+                    <a href="#" class="read-now-btn">Read Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const track = document.querySelector('.carousel-track');
+            const leftArrow = document.querySelector('.left-arrow');
+            const rightArrow = document.querySelector('.right-arrow');
+
+            // Calculates one card's width plus the 20px gap
+            const getCardWidth = () => {
+                const card = track.querySelector('.carousel-card');
+                return card ? card.offsetWidth + 20 : 0;
+            };
+
+            // Hides arrows when the start or end is reached
+            const updateArrows = () => {
+                const maxScroll = track.scrollWidth - track.clientWidth;
+
+                // Show/hide based on scroll position (5px tolerance for clean start/end)
+                leftArrow.style.display = track.scrollLeft <= 5 ? 'none' : 'flex';
+                rightArrow.style.display = track.scrollLeft >= maxScroll - 5 ? 'none' : 'flex';
+            };
+
+            // Scrolls the track by one card's width (direction: 1 for right, -1 for left)
+            const scrollByCard = (direction) => {
+                const cardWidth = getCardWidth();
+                if (cardWidth === 0) return;
+
+                track.scrollTo({
+                    left: track.scrollLeft + (cardWidth * direction),
+                    behavior: 'smooth'
+                });
+
+                // Update arrow visibility after the scroll finishes
+                setTimeout(updateArrows, 600);
+            };
+
+            // EVENT LISTENERS: The functionality of the arrows
+            leftArrow.addEventListener('click', () => scrollByCard(-1));
+            rightArrow.addEventListener('click', () => scrollByCard(1));
+
+            // Initial setup and listener for user-swiping
+            updateArrows();
+            track.addEventListener('scroll', updateArrows);
+            window.addEventListener('resize', updateArrows);
+        });
+    </script>
+
+    <section class="security-section">
+        <div class="container">
+            <div class="text-column">
+                <h2>Built to keep your <br> organization secure</h2>
+
+            </div>
+            <div class="image-gallery">
+                <div class="image-track">
+                    <img src="/imgi_38_Security-SOC.png" alt="Image 1" class="gallery-image">
+                    <img src="/imgi_39_Security-DSS.png" alt="Image 2" class="gallery-image">
+                    <img src="/imgi_40_Security-GDPR.png" alt="Image 3" class="gallery-image">
+                    <img src="/imgi_41_Security-CCPA.png" alt="Image 4" class="gallery-image">
+                    <img src="/imgi_42_Security-Star.png" alt="Image 5" class="gallery-image">
+                    <img src="/imgi_43_ISO-IEC_27001-2.png" alt="Image 6" class="gallery-image">
+                </div>
+            </div>
+            <p>Keep your scheduling data secure with enterprise-grade admin management, security <br>
+                integrations, data governance, compliance audits, and privacy protections.</p>
+            <div class="learn-more-container">
+                <a href="#" class="learn-more">
+                    Learn more
+                    <i class="fas fa-arrow-right"></i>
+
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <h2>Power up your <br> scheduling</h2>
+
+            <div class="footer-cta">
+                <p class="cta-text">Get started in seconds – for free.</p>
+                <div class="footer-buttons">
+                    <a href="#" class="btn primary">Sign up for free</a>
+                    <a href="#" class="btn secondary">Get a demo</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-columns">
+            <div class="col">
+                <h4>Product</h4>
+                <ul>
+                    <li>Scheduling automation</li>
+                    <li>Meeting Notetaker <span class="tag">Beta</span></li>
+                    <li>Customizable availability</li>
+                    <li>Mobile apps</li>
+                    <li>Browser extensions</li>
+                    <li>Meeting routing</li>
+                    <li>Event Types</li>
+                    <li>Email & website embeds</li>
+                    <li>Reminders & follow-ups</li>
+                    <li>Meeting polls</li>
+                    <li>Analytics</li>
+                    <li>Admin management</li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h4>Integrations</h4>
+                <ul>
+                    <li>Google ecosystem</li>
+                    <li>Microsoft ecosystem</li>
+                    <li>Calendars</li>
+                    <li>Video conferencing</li>
+                    <li>Payments</li>
+                    <li>Sales & CRM</li>
+                    <li>Recruiting & ATS</li>
+                    <li>Email messaging</li>
+                    <li>Embed Calendly</li>
+                    <li>Analytics</li>
+                    <li>API & connectors</li>
+                    <li>Security & compliance</li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h4>Calendly</h4>
+                <ul>
+                    <li>Pricing</li>
+                    <li>Product overview</li>
+                    <li>Solutions</li>
+                    <li>For individuals</li>
+                    <li>For small businesses</li>
+                    <li>For large companies</li>
+                    <li>Compare</li>
+                    <li>Security</li>
+                    <li>Sign up for free</li>
+                    <li>Talk to sales</li>
+                    <li>Get a demo</li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h4>Resources</h4>
+                <ul>
+                    <li>Help center</li>
+                    <li>Resource center</li>
+                    <li>Blog</li>
+                    <li>Customer stories</li>
+                    <li>Calendly community</li>
+                    <li>Developer tools</li>
+                    <li>Release notes</li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h4>Company</h4>
+                <ul>
+                    <li>About us</li>
+                    <li>Leadership</li>
+                    <li>Careers <span class="tag">We’re hiring!</span></li>
+                    <li>Newsroom</li>
+                    <li>Become a partner</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        <div class="downloads">
+            <h4>Downloads</h4>
+            <div class="download-links">
+                <a href="#"><i class="fa-brands fa-apple"></i> App Store</a>
+                <a href="#"><i class="fa-brands fa-google-play"></i> Google Play</a>
+                <a href="#"><i class="fa-brands fa-chrome"></i> Chrome extension</a>
+                <a href="#"><i class="fa-brands fa-edge"></i> Edge extension</a>
+                <a href="#"><i class="fa-brands fa-firefox-browser"></i> Firefox extension</a>
+                <a href="#"><i class="fa-brands fa-safari"></i> Safari extension</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i> Outlook add-in</a>
+            </div>
+        </div>
+        <div class="socials">
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+
+    <!-- === Footer Legal Section === -->
+    <div class="footer-legal">
+        <!-- Left: Language Selector -->
+        <div class="footer-legal-left">
+            <div class="language-selector">
+                <i class="fa-solid fa-earth-europe"></i>
+                <span class="language-text">Language</span>
+                <ul class="language-dropdown">
+                    <li><a href="#">English (US)</a></li>
+                    <li><a href="#">Español</a></li>
+                    <li><a href="#">Deutsch</a></li>
+                    <li><a href="#">Français</a></li>
+                    <li><a href="#">Português (Brasil)</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- Center: Legal Links -->
+        <div class="footer-legal-center">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Legal</a>
+            <a href="#">Status</a>
+            <a href="#">Cookie Settings</a>
+            <a href="#">Your Privacy Choices</a>
+        </div>
+
+        <!-- Right: Copyright -->
+        <div class="footer-legal-right">
+            <p>© Calendly 2025</p>
+        </div>
+    </div>
+
+    <!-- === Fixed Messenger Button === -->
+    <div class="chat-button">
+        <i class="fas fa-comment-dots"></i>
+    </div>
+
+</body>
+
+</html>
